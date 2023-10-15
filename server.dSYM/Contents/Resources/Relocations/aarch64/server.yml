@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yuliannavikhot/Programming/My Projects/Server/server'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cleanBuffer, symObjAddr: 0x0, symBinAddr: 0x100003730, symSize: 0x2C }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _cleanBuffer, symObjAddr: 0x0, symBinAddr: 0x100003730, symSize: 0x2C }
+  - { offsetInCU: 0xA4, offset: 0xA4, size: 0x8, addend: 0x0, symName: _sendMessage, symObjAddr: 0x2C, symBinAddr: 0x10000375C, symSize: 0x120 }
+  - { offsetInCU: 0xF6, offset: 0xF6, size: 0x8, addend: 0x0, symName: _receiveMessage, symObjAddr: 0x14C, symBinAddr: 0x10000387C, symSize: 0xB4 }
+  - { offsetInCU: 0x148, offset: 0x148, size: 0x8, addend: 0x0, symName: _handle_client, symObjAddr: 0x200, symBinAddr: 0x100003930, symSize: 0x184 }
+  - { offsetInCU: 0x1DA, offset: 0x1DA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x384, symBinAddr: 0x100003AB4, symSize: 0x1F0 }
+  - { offsetInCU: 0x290, offset: 0x290, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x574, symBinAddr: 0x100003CA4, symSize: 0x24 }
+...
